@@ -1,12 +1,34 @@
-# React + Vite
+# 📇 Directory App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive directory management app built using **React + Vite** with **Tailwind CSS**. It allows users to add and retrieve personal information securely stored in `localStorage`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add new people with Aadhaar, Name, DOB, Age, and Mobile number
+- Automatically calculates age from DOB
+- Data is saved in browser localStorage in JSON format
+- Retrieve entries using Aadhaar number
+- Input validation with **tooltip-based error messages**
+- Responsive and animated UI using Tailwind CSS
+- Icon-based action buttons for cleaner interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React (with Vite for faster development)
+- 💨 Tailwind CSS
+- 🧠 localStorage for persistent data
+- 🎨 React Icons
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/directory-app.git
+cd directory-app
+npm install
+npm run dev
